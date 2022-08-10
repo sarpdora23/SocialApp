@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "574435049808",
+    "project_id": "socialapp-76447",
+    "storage_bucket": "socialapp-76447.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574435049808:android:fe5901c7f984c19a6a6c55",
+        "android_client_info": {
+          "package_name": "com.sinamekidev.socialapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574435049808-pk9lhm685hnaj27mmkda6ihib5jgbb7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9FA1qDccFSd0RA3RKEAMn4wRdvV4cl3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574435049808-pk9lhm685hnaj27mmkda6ihib5jgbb7a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

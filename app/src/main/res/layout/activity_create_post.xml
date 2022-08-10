@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/create_post_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    tools:context=".CreatePost">
+
+    <ImageView
+        android:id="@+id/create_post_back"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+    <EditText
+        android:id="@+id/create_post_text"
+        android:layout_width="340dp"
+        android:layout_height="313dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/create_post_shape"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="10dp"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/create_post_back" />
+
+    <Button
+        android:id="@+id/create_post_share_button"
+        android:layout_width="136dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="90dp"
+        android:backgroundTint="@color/button_color"
+        android:backgroundTintMode="src_in"
+        android:text="Share"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/create_post_text" />
+
+    <ImageView
+        android:id="@+id/create_post_share_add_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/create_post_text"
+        app:layout_constraintEnd_toEndOf="@+id/create_post_text"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="@+id/create_post_text"
+        app:srcCompat="@drawable/files" />
+</androidx.constraintlayout.widget.ConstraintLayout>
